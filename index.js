@@ -3,7 +3,7 @@
  * @const {string} TMPL_LINK
  */
 const
-    TMPL_LINK = '<a class="wd-pretty-link" href="" data-href="{{ link }}" title="">' +
+    TMPL_LINK = '<a class="wd-pretty-link" href="{{ link }}" title="{{ link }}">' +
                     '<span class="wd-pretty-link__icon">{{ icon }}</span>' +
                     '<span class="wd-pretty-link__text"><span class="wd-crop">{{ text }}</span></span>' +
                     '<span class="wd-pretty-link__path"><span class="wd-crop">{{ path }}</span></span>' +
