@@ -39,7 +39,7 @@ function prettylink(block) {
     // Make replacements
     out = out.replace(/\{\{\s*icon\s*\}\}/g, TMPL_ICO);
     out = out.replace(/\{\{\s*text\s*\}\}/g, block.body);
-    out = out.replace(/\{\{\s*link\s*\}\}/g, path);
+    out = out.replace(/\{\{\s*link\s*\}\}/g, link);
     out = out.replace(/\{\{\s*path\s*\}\}/g, path);
 
     return out;
