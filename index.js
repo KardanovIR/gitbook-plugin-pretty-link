@@ -50,7 +50,7 @@ function prettylink(block) {
 module.exports = {
     book: {
         assets: './assets',
-        js: ['pretty-link.js?cacheBreaker=3'],
+        js: [],
         css: ['pretty-link.css?cacheBreaker=3']
     },
     blocks: {prettylink}
